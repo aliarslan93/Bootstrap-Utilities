@@ -5,9 +5,12 @@
 @import "../node_modules/bootstrap/scss/utilities";
 
 
-@import "elements/variables";
-@import "elements/mixin";
+@import "variables";
+@import "elements/form-input";
+
+@import "mixin";
 
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
-@import "elements/common";
+@import "common";
+
