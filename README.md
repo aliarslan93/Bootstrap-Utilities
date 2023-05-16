@@ -1,7 +1,9 @@
 # Bootstrap 5.2.3 Custom Utilities
+
 Bootstrap Utilities with Custom SCSS
 
 # Getting started
+
 <h2>Bootstrap</h2>
 <p>Please check the official bootstrap documentation <a href="https://getbootstrap.com" target="_blank">Documentation</a></p>
 <a href="https://getbootstrap.com/docs/5.2/utilities/api/#using-the-api" target="_blank">Bootstrap Utilities API Documentation</a>
@@ -10,6 +12,7 @@ Bootstrap Utilities with Custom SCSS
 <p>Please check the official sass documentation <a href="https://sass-lang.com" target="_blank">Documentation</a></p>
 
 # Add Custom Color
+
 _variables.scss
 <pre class="notranslate">
 <code>$color-1:#5067DA;
@@ -45,10 +48,22 @@ $utilities: map-merge($utilities,
 $theme-colors: map-merge($custom-theme-colors, $theme-colors);
 </code>
 </pre>
-Usage
+<h2>Usage</h2>
+<pre class="notranslate">
 <code>
-<br>
 class="bg-color-1"
-<br>
-class="bg-color-2" ...
+class="bg-color-2" 
 </code>
+</pre>
+<h2>Features</h2>
+<pre class="notranslate">
+<code>
+<ul>
+<li>Custom Responsive Device</li>
+<li>Custom Font Include</li>
+<li>Custom Icon Pack</li>
+<li>Add Custom Section</li>
+<li>Add Custom Components</li>
+</ul>
+</code>
+</pre>
