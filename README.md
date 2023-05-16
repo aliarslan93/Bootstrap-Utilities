@@ -56,8 +56,7 @@ class="bg-color-2"
 </code>
 </pre>
 <h2>Features</h2>
-<pre class="notranslate">
-<code>
+
 <ul>
 <li>Custom Responsive Device</li>
 <li>Custom Font Include</li>
@@ -65,5 +64,3 @@ class="bg-color-2"
 <li>Add Custom Section</li>
 <li>Add Custom Components</li>
 </ul>
-</code>
-</pre>
