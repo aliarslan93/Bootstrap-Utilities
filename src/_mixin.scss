@@ -1,0 +1,21 @@
+$utilities: map-merge($utilities,
+        (
+                "color": (rfs: true,
+                        property: color,
+                        class: "font",
+                        values: $custom-theme-colors ),
+                "text":(rfs: true,
+                        property:color,
+                        class:"text",
+                        values:$text-colors ),
+                "background": (rfs: true,
+                        property: background-color,
+                        class: "bg",
+                        values: $custom-theme-colors ),
+                "font-size": (rfs: true,
+                        property: font-size,
+                        class: "fs",
+                        values: $font-sizes ),
+        )
+);
+$theme-colors: map-merge($custom-theme-colors, $theme-colors);

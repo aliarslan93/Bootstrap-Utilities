@@ -1,0 +1,42 @@
+$prefix: "bs-";
+$gutter-x: 10px;
+$gutter-y: 10px;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+/* Custom Theme Color */
+$color-1:#5067DA;
+$color-2:#7ABBDF;
+$color-3:#2196F3;
+$color-4:#004E59;
+$color-5:#00949D;
+$color-6: #09416e;
+
+$custom-theme-colors :(
+        "color-1": $color-1,
+        "color-2": $color-2,
+        "color-3": $color-3,
+        "color-4": $color-4,
+        "color-5": $color-5,
+        "color-6": $color-6
+);
+
+/* Custom Heading Sizes */
+$h1-font-size: 48px;
+$h2-font-size: 36px;
+$h3-font-size: 24px;
+$h4-font-size: 18px;
+$h5-font-size: 16px;
+$h6-font-size: 12px;
+
+/* Custom Font Sizes */
+$font-sizes: (
+        32: 32px,
+        26: 26px,
+        22: 22px,
+        18: 18px,
+        16: 16px,
+        12: 12px,
+);
+$text-colors:(
+        "white": #FFFFFF
+);
