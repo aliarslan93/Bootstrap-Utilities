@@ -40,3 +40,18 @@ $font-sizes: (
 $text-colors:(
         "white": #FFFFFF
 );
+
+
+// Responsive Variables
+$extraBig-device : 'only screen and (min-w idth: 1600px)';
+$laptop-device : 'only screen and (min-width: 1200px) and (max-width: 1600px)';
+$mini-laptop-device : 'only screen and (min-width: 1200px) and (max-width: 1300px)';
+$desktop-device : 'only screen and (min-width: 992px) and (max-width: 1199px)';
+$tablet-device:'only screen and (min-width: 768px) and (max-width: 1024px)';
+$tablet-device-rotate : 'only screen and (min-width: 991px) and (max-width:1199px)';
+$large-mobile:'only screen and (max-width: 767px)';
+$small-mobile: 'only screen and (max-width: 525px)';
+$small-mobile2: 'only screen and (max-width: 575px)';
+$small-mobile3:'only screen and (min-width: 430px) and (max-width: 575px)';
+//Iphone SE to Tablet Device
+$responsive-device : "(min-width:375px) and (max-width:991px)";
